@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center"><b>NESTED TABLE</b></h1>
+    <!-- table starts here -->
+    <table align="center" border="2">
+        <!-- table head starts here -->
+     <thead>
+        <th>HEADER COLOUMN 1</th>
+        <th>HEADER COLOUMN 2</th>
+        <th>HEADER COLOUMN 3</th>
+        <th>HEADER COLOUMN 4</th>
+     </thead>
+        <!-- table head ends here -->
+        <!-- table row 1 starts here -->
+        <tr>
+            <td>ROW 2 - ITEM 1</td>
+            <td>ROW 2 - ITEM 2</td>
+            <td rowspan="2">ROW 2 - NESTED TABLE 1
+                <br>
+                <br>
+                <!-- nested table 1 starts here -->
+                <table align="center" border="2">
+                    <tr>
+                        <td> <b> ROW 1 HEADER </b> </td>
+                        <td> ITEM </td>
+                    </tr>
+                    <tr>
+                        <td> <b> ROW 2 HEADER </b> </td>
+                        <td> ITEM </td>
+                    </tr>
+                    <tr>
+                        <td> <b> ROW 3 HEADER </b> </td>
+                        <td> ITEM </td>
+                    </tr>
+                </table>
+                 <!-- nested table 1 ends here -->
+            </td>
+            <td>ROW 2 - ITEM 4 </td>
+        </tr>
+        <!-- table row 1 ends here -->
+         <!-- table row 2 starts here -->
+         <tr>
+            <td>ROW 3: NESTED TABLE 2
+                <br>
+                <br>
+                <br>
+                <br>
+                <!-- nested table 2 starts here -->
+                <table border="2" align="center">
+                <tr>
+                    <td><b>ROW 1 HEADER</b></td>
+                    <td>ITEM</td>
+                </tr>
+                <tr>
+                    <td><b>ROW 2 HEADER</b></td>
+                    <td>ITEM</td>
+                </tr>
+                </table>
+                <!-- nested table 2 ends here -->
+            </td>
+            <td>ROW 3 - ITEM 2</td>
+            <td rowspan="2">ROW 3 - ITEM 3</td>
+         </tr>
+          <!-- table row 2 ends here -->
+            <!-- table row 3 starts here -->
+            <tr>
+                <td>ROW 4 - ITEM 1</td>
+                <td>ROW 4 - ITEM 2</td>
+                <td>ROW 4 - ITEM 3</td>
+            </tr>
+              <!-- table row 3 ends here -->
+              <tfoot>
+                <td colspan="4">ROW 5 - LAST ROW OF OUTER TABLE</td>
+            </tfoot>    
+    </table>
+   <!-- table ends here -->
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr>
+  <hr>
+  <br>
+  <br>
+  <br>
+
+  <!-- table 2 starts here --> 
+  <table border="1" align="center" width="40%" height="400" bgcolor="red">
+    <!-- table 2 row 1 starts here -->
+    <tr>
+        <td>
+       <!-- nested table 1 starts here -->
+       <table border="1" align="center" width="90%" height="380" bgcolor="black">
+                <tr>
+            <td>
+                <!-- nested table 2 starts here -->
+       <table border="1" align="center" width="90%" height="360" bgcolor="orange">
+        <tr>
+            <td>
+                
+                <!-- nested table 3 starts here -->
+       <table border="1" align="center" width="90%" height="340" bgcolor="cyan">
+        <tr>
+            <td>
+                <!-- nested table 4 starts here -->
+       <table border="1" align="center" width="90%" height="320" bgcolor="black">
+        <tr>
+            <td align="center">
+                <img src="https://media2.giphy.com/media/l5JbspfwZ0yjHjlJ0K/giphy-downsized-large.gif" alt="">
+                            </td>
+        </tr>
+       </table>
+       <!-- nested table 4 ends here -->
+                
+            </td>
+        </tr>
+       </table>
+       <!-- nested table 3 ends here -->
+            </td>
+        </tr>
+       </table>
+       <!-- nested table 2 ends here -->                
+            </td>
+        </tr>
+       </table>
+       <!-- nested table 1 ends here -->
+        </td>
+    </tr>
+     <!-- table 2 row 1 ends here -->
+  </table>
+  <!-- table 2 ends here -->
+</body>
+</html>

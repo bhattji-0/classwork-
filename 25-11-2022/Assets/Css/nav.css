@@ -1,0 +1,35 @@
+body
+{
+    margin: 0;
+}
+.flex-container
+{
+    display: flex;
+    
+}
+header
+{
+    background-color: aqua ;
+}
+header ul li
+{
+    list-style-type: none;
+    display: inline;
+    margin: 40px;
+}
+header ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.left-header
+{
+    flex: 60%;
+    
+}
+.right-header
+{
+    flex: 70%;
+}
+
+       

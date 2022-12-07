@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container
+    {
+        height: auto;
+        width: 300px;
+        background-color: #000000;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        display: grid;
+        padding: 60px;
+        column-gap: 20px;
+        row-gap: 20px;
+        border-radius: 40px;
+        margin: auto;
+    }
+    .item1
+    {
+        background-color: lightgray;
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+        font-weight: 900;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .item5
+    {
+        background-color: grey;
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+    }
+    .item6
+    {
+        background-color: grey;
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+    }
+    .item7
+    {
+        background-color: grey;
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+    }
+    .item8
+    {
+        background-color: grey;
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+    }
+    .item0
+    {
+        background-color: rgb(226, 186, 43);
+        height: 60px;
+        width: 60px;
+        border-radius: 30px; 
+    }
+    .item10
+    {
+        background-color: grey;
+        height: 60px;
+        width: 60px;
+        border-radius: 30px; 
+    }
+    button
+    {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .d6 input
+    {
+        width: 90%;
+        padding: 10px;
+    }
+    .d1
+    {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .d1 input
+     {
+        width: 90%;
+        padding: 10px;
+        height: 40px;
+        border-radius: 15px;
+        border: none;
+    }
+    h1
+     {
+        background-image: linear-gradient(blue , red);
+       -webkit-text-fill-color: transparent;
+       -webkit-background-clip: text;
+       font-size: 90px;
+     }
+     .d2
+     {
+       text-align: center;
+     }
+</style>
+<body>
+    <div class="d2">
+     <h1>Calculator</h1>
+    </div>
+    <div class="container">
+        <div class="d1"><input type="text"></div>
+        <button class="item1">AC</button>
+        <button class="item1">%</button>
+        <button class="item1">+/-</button>
+        <button class="item0">÷</button>
+        <button class="item5">7</button>
+        <button class="item5">8</button>
+        <button class="item5">9</button>
+        <button class="item0">x</button>
+        <button class="item6">4</button>
+        <button class="item6">5</button>
+        <button class="item6">6</button>
+        <button class="item0">-</button>
+        <button class="item6">1</button>
+        <button class="item7">2</button>
+        <button class="item7">3</button>
+        <button class="item0">+</button>
+        <button class="item10">❌</button>
+        <button class="item10">0</button>
+        <button class="item8">.</button>
+        <button class="item0">=</button>
+    </div>
+</body>
+</html>
